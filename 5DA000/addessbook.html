@@ -1,0 +1,45 @@
+
+<link rel="stylesheet" type="text/css" href="abcss.css">
+<html><head><title>
+List
+</title></head><body>
+<a class = "title" 
+		href="https://www8.cs.umu.se/~kv13smn/5da000/addressbook/">
+		The Address Book</a>
+<form class = "delAgent" action="deleteAgent.cgi" 
+		method = "post" id = "checkvals"> <input type="submit" value="Delete"> 
+		</form>
+<table class = "memberlist" >
+<tr><td>
+<input type= "checkbox" name="checkid" form = "checkvals" value = 20>
+</td><td>
+<a href='agent_info.cgi?agentid=20'>
+Svitri
+</a>
+</td><td>
+<a href='agent_info.cgi?agentid=20'>
+Magnusson
+</a>
+</td><td>
+<a href='agent_info.cgi?agentid=20'>
+svitri@hotmail.com
+</a>
+</td></tr>
+</table>
+<br>
+
+<form class = 'addAgent' action='addAgent.cgi' method='post'>
+<h2 class= 'NewMemb'>Add new member:</h2>
+<label>First name: </label> <input type='text' name='fname'>
+<label>Last name:</label> <input type='text' name='lname'>
+<label>Email adress:</label><input type='text' name='mail'>
+<br> </br> <br> </br>
+<label>Title:</label> <input type='text' name='note_title'>
+<label>Notes: </label> <textarea rows='15' cols='28'
+		name = 'note_text'></textarea>
+<input type='submit' value='Submit'> </form>
+<form class = 'BackButtonMemberList' action = 'index.cgi'
+		method = 'get'> <input type = 'submit' value = 'Back'></form>
+<p class = "footer"> © Svitri Magnusson, kv13smn, svma0011, 
+		KV13, Applikationsprogrammering i Python (57100VT15), All rights reserved. 
+		Umeå, Sweden </p> </body></html>

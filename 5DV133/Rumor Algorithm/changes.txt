@@ -1,0 +1,8 @@
+Robin Forsström  (oi17rfm)
+Hampus Larsson   (id17hln)
+Svitri Magnusson (kv13smn)
+Version 2.0
+
+Kod:
+
+*Fixade fallet då Första EventID var mindre än 1.

@@ -1,0 +1,30 @@
+gcc -std=c99 -Wall -I../include/ queue/queue.c list/list.c -o que queuetest.c
+
+
+/*
+Ax 1 Isempty(Empty)
+Ax 2 !(Isempty(Enqueue(v,q)))
+Ax 3 Isempty(q) -> Dequeue(Enqueue(v, q)) = q
+Ax 4 !(Isempty(q)) -> Dequeue(Enqueue(v, q)) = Enqueue(v, Dequeue(q))
+Ax 5 Isempty(q) -> Front(Enqueue(v,q)) = v
+Ax 6 !(Isempty(q)) -> Front(Enqueue(v, q)) = Front(q)
+*/
+
+
+/*
+    //queue
+    *queue_empty(free_function free_func);
+
+    //bool
+    queue_is_empty(const queue *q);
+
+    //queue
+    *queue_enqueue(queue *q, void *v);
+
+    //queue
+    *queue_dequeue(queue *q);
+
+    //void
+    *queue_front(const queue *q);
+
+*/

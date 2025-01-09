@@ -1,0 +1,5 @@
+AuthYp On
+AuthType Basic
+AuthName "Applikationsutveckling i Python"
+require valid-user
+ForceSSL on

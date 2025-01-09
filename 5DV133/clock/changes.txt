@@ -1,0 +1,30 @@
+1.  Previous feedback claimed that an mwe was abset, which is not the case.
+    It was called Alarm.java (as required) and is mentioned in comments that 
+    it is an mwe. Clarified some example steps with print statements.
+
+2.  Added headers (date, name, course info etc...)and 
+    comments to missing tests and class functions.
+    Changed everything to English. 
+
+3.  Rewrote so that getters don't change attritubte states get (isTriggered)
+    in AlarmClock.java previously changed attribute "status" after
+    it returned true.
+
+4.  Added correct compile instructions.
+
+5.  Added tags. (@throws, @return, @param)
+
+6.  Added execution flow in report.
+
+7.  Added javadoc.
+
+8.  Refactored testcodes with only one assertion instead of mostly two.
+    Functions with two assertions were split into two functions. 
+    The new functions have new names where the last capitalized word of
+    funktion name indicates what functions is being tested.
+
+9.  Made all tests deemed "too long" shorter and divided into smaller unit tests.
+
+10. 
+
+

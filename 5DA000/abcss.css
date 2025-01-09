@@ -1,0 +1,219 @@
+body {
+    background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/50/23/V73v28.jpg");
+	background-attachment: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: none;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	color: white;
+}
+
+
+a.title {
+	display: block;
+   	color:#6599FF;
+ 	background-color:transparent;
+	width:100%;
+	text-align: center;
+	font-size: 60px;
+}
+
+p.introtext {
+	width: 500px;
+	padding: 40px;
+	margin: 40px;
+	display: block;
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+
+form.addAgent {
+	float: left;
+	display: block;
+	position: fixed;
+	top: 5%;
+	left: 2%;
+	width: 110px;
+	color: white;
+}
+
+
+form.delAgent {
+	float: right;
+	position: fixed;
+	top: 15%;
+	right: 2%;
+}
+
+label {
+	text-align: right;
+	font-size: 15px;
+}
+
+
+.StartPageForm {
+	
+	position: fixed;
+	top: 15%;
+	left: 2%;
+
+}
+
+
+.BackButton {
+	position: fixed;
+	bottom: 15%;
+	left: 2%;
+	background-color: OliveDrab;
+	border: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	color: white;
+	padding: 5px;
+	text-align: center;
+
+}
+.BackButtonMemberlist {
+	position: fixed;
+	bottom: 1%;
+	left: 2%;
+	background-color: OliveDrab;
+	border: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	color: white;
+	padding: 5px;
+	text-align: center;
+}
+
+.AddNote{
+	position: fixed;
+	top: 15%;
+	left: 6%;
+}
+
+form.AddNoteForm {
+	width: 110px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 900px;
+
+}
+
+.AgentInfo {
+	position: fixed;
+	top: 20%;
+	left: 2%;
+}
+
+.Edit {
+	position: fixed;
+	top: 15%;
+	left: 2%;
+}
+
+
+.notetitle {
+	display: block;
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+.notetext {
+	width: 700px;
+	padding: 40px;
+	margin: 40px;
+	display: block;
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	text-align: left;
+
+}
+.notebutton {
+	display: block;
+	float: middle;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.AddNoteForm {
+	position: fixed;
+	top: 50%;
+	left: 2%;
+	color: white;
+}
+
+a:link {
+	color: white;
+	background-color:transparent;
+	text-decoration:none;
+
+}
+a:visited {
+	color: gray;
+	background-color:transparent;
+	text-decoration:none;
+}
+a:hover {
+	color: white;
+	background-color:transparent;
+	text-decoration:underline;
+}
+a:active {
+
+	color: white;
+	background-color:transparent;
+	text-decoration:underline;
+}
+
+table.memberlist {
+	margin-top: 50px;
+	border: 2px;
+	background-color: transparent;
+	text-align: center;
+	width: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+form.add {
+	text-align: left;
+	color: white; 
+}
+
+input {
+	background-color: OliveDrab;
+	border: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	color: white;
+	padding: 5px;
+	text-align: center;
+}
+
+form.DeleteNotes{
+	float: right;
+	position: fixed;
+	top: 22%;
+	right: 2%;
+}
+
+p.footer {
+	width: 100%;
+	position: fixed;
+	font-size: 10px;
+	display: block;
+	float: bottom;
+	bottom: 1%;
+	text-align: center;
+	color: gray;
+}

@@ -1,0 +1,35 @@
+QUEUE
+
+q -> a queue struct
+v -> value inserted
+
+Create an empty list object with cells, using LIST.
+Allocate
+
+
+queue_empty(free)
+	list_empty(free_func)
+
+queue_enqueue(q, v)
+	list_insert(q->elements, v, list_end(q->elements)
+
+queue_print(q, print_ints)
+	list_first
+	list_end
+	print_func
+	...
+
+queue_dequeue(q)
+	list_remove(q->elements, list_first(q->elements))
+
+queue_print(q, print_ints)
+	list_first
+	list_end
+	print_func
+	...
+
+queue_kill(q)
+	list_kill(q->elements)
+		list_first(l)
+		list_listremove(l, p)
+		free
